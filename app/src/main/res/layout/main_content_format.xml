@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:src="@drawable/nairobi_day"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:paddingTop="16dp"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:shadowColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/kenya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Kenya"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="32sp"/>
+
+    <TextView
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:shadowColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/kenya"
+        android:id="@+id/Nairobi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Nairobi"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="82sp"/>
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:shadowColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Nairobi"
+        android:id="@+id/tag_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="The city reaching for the skies"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="22sp"/>
+
+
+
+
+
+</RelativeLayout>
